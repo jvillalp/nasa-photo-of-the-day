@@ -29,6 +29,7 @@ function App() {
         key={uuid()}
         url={nasaImages.url}
         explanation={nasaImages.explanation}
+        copyright={nasaImages.copyright}
         />
         {console.log('nasa', nasaImages.url)}
     </div>
